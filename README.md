@@ -60,5 +60,19 @@ It performed extremely well with every depth and number of trees. As such I aime
 
 # Evaluation
 
+The model achieved 98.65% accuracy on it's test set (which was 30% of the total amount of data)
 
+![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/9077a73c-b18d-4c03-baa5-cd071e387df6)
+
+The confusion matrix showed that the model did a very good job at predicting all classes 
+
+![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/20fef540-4511-409d-8cf4-a2eac8a7d2e0)
+
+I then saved the model and tested it on an additional 13 examples. It got all of them correct.
+
+![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/a4edf3e5-11dd-45f4-a104-639692e0257c)
+
+For all intents and purposes, the model did great!
+
+# Building the site
 
