@@ -86,6 +86,8 @@ All you have to do is enter the density in grams per centimeter cubed and the ma
 
 https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/654d1048-c068-4039-9354-2027f65b9685
 
+The only limitation to the website and the model itself is that it relies on an accurate density value. This is because you calculate density from the planets radius and mass so if the density is not accurate, it will mess with the model. 
+
 And of course you can see the code in this repository.
 
 # Running the site
@@ -97,3 +99,7 @@ The first step is to go to the command prompt and navigate to the directory that
 Once your in the directory, all you have to do is type 'python app.py" and then copy the server address.
 
 ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/1001d168-2d63-4ec2-81cf-627ba940f40e)
+
+# Next Steps
+
+The next steps would be to make the website look nicer, add more units, and make it so it automatically calculates density. But that is for another time. Hope you enjoyed this project!
