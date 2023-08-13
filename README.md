@@ -55,7 +55,6 @@ The model is as such:
 
 ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/b01c6fee-6e47-4103-8d1a-5670984eae10)
 
-
 It performed extremely well with every depth and number of trees. As such I aimed to simplify it and look for the sweetspot which I found to be around 35 trees and 8 layers of depth.
 
 # Evaluation
@@ -64,7 +63,7 @@ The model achieved 98.65% accuracy on the test set (which was 30% of the total a
 
 ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/9077a73c-b18d-4c03-baa5-cd071e387df6)
 
-The confusion matrix showed that the model did a very good job at predicting all classes 
+The confusion matrix showed that the model did a very good job at predicting all classes, and in the rare errors it did make, they were at least reasonable. 
 
 ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/20fef540-4511-409d-8cf4-a2eac8a7d2e0)
 
@@ -78,11 +77,17 @@ For all intents and purposes, the model did great!
 
 Building the site was a lot of trial and error - made with css, html, and python.
 
-The design of the site was very simple, nothing complicated:
+The development process of this involved:
+
+1. Website design
+2. Model Integration
+3. Debugging
+
+Here is the design of the site, made to be very simple:
 
 ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/696cddf1-8f0a-49cb-bab0-2f2233cca78d)
 
-All you have to do is enter the density in grams per centimeter cubed and the mass/radius in either Jupiters or Earths (which you can select). The site then outputs the class below. Here is a demonstration: 
+All you have to do is enter the density in grams per centimeter cubed and the mass/radius in either Jupiters or Earths (which you can select) and it will output a class. Here is a demonstration: 
 
 https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/654d1048-c068-4039-9354-2027f65b9685
 
@@ -92,14 +97,14 @@ And of course you can see the code in this repository.
 
 # Running the site
 
-Unfortunately, you can't run the site by just opening the html file, but here's how you can.
+Unfortunately, you can't run the site by just opening the html file, but here's how you can:
 
-The first step is to go to the command prompt and navigate to the directory that holds all the files. You can achieve this with: cd your/path/right/here
+- The first step is to go to the command prompt and navigate to the directory that holds all the files. You can achieve this with: cd your/path/right/here
 
-Once your in the directory, all you have to do is type 'python app.py" and then copy the server address.
+- Once your in the directory, all you have to do is type 'python app.py" and then copy the server address.
 
 ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/1001d168-2d63-4ec2-81cf-627ba940f40e)
 
 # Next Steps
 
-The next steps would be to make the website look nicer, add more units, and make it so it automatically calculates density. But that is for another time. Hope you enjoyed this project!
+The next steps would be to make the website look nicer, add more unit options, and make it so it automatically calculates density. But that is for another time. Hope you enjoyed this project!
