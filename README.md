@@ -52,6 +52,7 @@ One thing you might have noticed is the lack of standardization/normalization. T
 #The Model
 
 The model is as such: 
+
 ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/b01c6fee-6e47-4103-8d1a-5670984eae10)
 
 
