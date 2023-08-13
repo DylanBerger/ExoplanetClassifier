@@ -24,11 +24,15 @@ Making the cleaned dataset involved several steps:
 
 The two last steps were the most difficult. The fourth one involved extensive research into which features were most relavant, narrowing them down to seven, and then running the model with them.  
 
-After training the model, I performed a feature test to see which ones were most relevant to the model, of which mass, radius, and density were the most relevant by a fair margin as you can see. ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/6d3bf77e-ded6-4ad0-a4a0-f146b78363d9). 
+After training the model, I performed a feature test to see which ones were most relevant to the model, of which mass, radius, and density were the most relevant by a fair margin as you can see:
+
+![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/6d3bf77e-ded6-4ad0-a4a0-f146b78363d9). 
 
 Therefore to simplify the model I was able to remove them.
 
-The fifth step on the other hand, involved doing calculations with the data I had, to fill in missing cells. I mainly performed calculations to estimate the orbital period, semi-major axis, and density.
+The fifth step on the other hand, involved doing calculations with the data I had, to fill in missing cells. I mainly performed calculations to estimate the orbital period, semi-major axis, and density. Here are the formulas: 
+
+![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/617f2ab9-8715-4383-8ec3-ee94804fbed5) ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/4084b19a-f202-4f5e-988d-aeafcdff4d39) ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/b5b6aaef-4893-4a26-9cbf-b45adf725fbf)
 
 These steps resulted in a cleaned dataset ideal for machine learning!
 
