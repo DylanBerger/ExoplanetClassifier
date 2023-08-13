@@ -53,7 +53,10 @@ Processing the data involved several steps:
 7. Running the model with it
 
 To balance the dataset I used undersampling because the dataset was relatively large and the Terrestrial class was massively underrepresented. Here is the before and after: 
-![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/0a4d8f5f-c74d-4d44-b146-60a1c655690f) ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/78263d0e-dcce-4f9c-8c20-b4cbb5248601)
+
+![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/0a4d8f5f-c74d-4d44-b146-60a1c655690f) 
+
+![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/78263d0e-dcce-4f9c-8c20-b4cbb5248601)
 
 One thing you might have noticed is the lack of standardization/normalization. The model for some reason did not train well if I normalized/standardized the data. It would overfit and perfer the "Gas Giant" class in every test example. My only guess is that applying these techniques affected the usefulness of the data, perhaps putting it to too much of the same scale. Regardless, it worked extremely well without standardization/normalization.
 
