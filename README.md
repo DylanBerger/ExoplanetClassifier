@@ -1,5 +1,5 @@
 # Overview
-The purpose of this classifier was to create a machine learning model which could classify planets. I ended up using a random forest classifier which achieved 98.65% accuracy with just three parameters. Note: before running the site, look for the instructions in this page to properly set it up. 
+The purpose of this classifier was to create a machine learning model which could classify planets. I ended up using a random forest classifier which achieved 98.65% accuracy with just three parameters. Note: before running the site, look for the instructions on the bottom of the page to properly set it up. 
 
 # Repository Summary 
 
