@@ -32,7 +32,7 @@ The fifth step on the other hand, involved doing calculations with the data I ha
 
 These steps resulted in a cleaned dataset ideal for machine learning!
 
-#Data Preprocessing
+# Data Preprocessing
 
 Processing the data involved several steps:
 
@@ -49,7 +49,7 @@ To balance the dataset I used undersampling because the dataset was relatively l
 
 One thing you might have noticed is the lack of standardization/normalization. The model for some reason did not train well if I normalized/standardized the data. It would overfit and perfer the "Gas Giant" class in every test example. My only guess is that applying these techniques affected the usefulness of the data, perhaps putting it to too much of the same scale. Regardless, it worked extremely well without standardization/normalization.
 
-#The Model
+# The Model
 
 The model is as such: 
 
@@ -58,7 +58,7 @@ The model is as such:
 
 It performed extremely well with every depth and number of trees. As such I aimed to simplify it and look for the sweetspot which I found to be around 35 trees and 8 layers of depth.
 
-#Evaluation
+# Evaluation
 
 
 
