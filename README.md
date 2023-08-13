@@ -76,4 +76,24 @@ For all intents and purposes, the model did great!
 
 # Building the site
 
-Building the site 
+Building the site was a lot of trial and error - made with css, html, and python.
+
+The design of the site was very simple, nothing complicated:
+
+![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/696cddf1-8f0a-49cb-bab0-2f2233cca78d)
+
+All you have to do is enter the density in grams per centimeter cubed and the mass/radius in either Jupiters or Earths (which you can select). The site then outputs the class below. Here is a demonstration: 
+
+https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/654d1048-c068-4039-9354-2027f65b9685
+
+And of course you can see the code in this repository.
+
+# Running the site
+
+Unfortunately, you can't run the site by just opening the html file, but here's how you can.
+
+The first step is to go to the command prompt and navigate to the directory that holds all the files. You can achieve this with: cd your/path/right/here
+
+Once your in the directory, all you have to do is type 'python app.py" and then copy the server address.
+
+![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/1001d168-2d63-4ec2-81cf-627ba940f40e)
