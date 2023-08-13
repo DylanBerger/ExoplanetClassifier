@@ -36,7 +36,7 @@ The fifth step on the other hand, involved doing calculations with the data I ha
  
 ![image](https://github.com/DylanBerger/ExoplanetClassifier/assets/82914031/0b4bcb34-e313-4829-beda-70cc65f8d9e3)
  
-![image](https://github.com/DylanBerger/ExoplanetClassifier/assets/82914031/d8730991-64ec-43b1-ab8d-c7c8495fed7e)
+![image](https://github.com/DylanBerger/ExoplanetClassifier/assets/82914031/5c7eb789-cf22-4e75-bf59-2a2febc00d00)
 
 These steps resulted in a cleaned dataset ideal for machine learning!
 
