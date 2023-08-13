@@ -49,7 +49,9 @@ One thing you might have noticed is the lack of standardization/normalization. T
 
 #The Model
 
-The model is as such: ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/d3a10c37-6079-4641-b784-1088e276de9e)
+The model is as such: 
+![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/b01c6fee-6e47-4103-8d1a-5670984eae10)
+
 
 It performed extremely well with every depth and number of trees. As such I aimed to simplify it and look for the sweetspot which I found to be around 35 trees and 8 layers of depth.
 
