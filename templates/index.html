@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Classifier</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title">Exoplanet Classifier</h1>
+    <h2 class="heading">This is an exoplanet classifier. The exoplanet classes are based on those outlined by NASAs exoplanet catalog (<a href="https://exoplanets.nasa.gov/what-is-an-exoplanet/planet-types/overview/" target="_blank">https://exoplanets.nasa.gov/what-is-an-exoplanet/planet-types/overview/</a>): Gas Giant, Neptune-like, Super Earth, and Terrestrial. The model predicts classes at 98.65% accuracy with just the planets mass, radius and density (g/cm**3) as inputs. The project repository is linked. Select your units, enter your values, and it will output one of the four classes below. <strong>Please note that density is a product of mass and radius so incorrect densities may result in an incorrect classification.</strong> </h2>
+    <h3 class="link">Project repository: <a href="https://github.com/DylanBerger/Exoplanet-Classifier">https://github.com/DylanBerger/Exoplanet-Classifier</a></h3>
+    <h4 class="author">By Dylan Berger</h4>
+    <h4 class="email">Questions and Inquiries: rahsdylanberger@gmail.com</h4>
+
+    <form action="/" method="post">
+        <input type="text" id="exoplanetdensity" name="exoplanetdensity" placeholder="Density (g/cm**3)" oninput="validateNumericInput(this)">
+        <input type="text" id="exoplanetmass" name="exoplanetmass" placeholder="Mass" oninput="validateNumericInput(this)">
+        <input type="text" id="exoplanetradius" name="exoplanetradius" placeholder="Radius" oninput="validateNumericInput(this)">
+        <select class="dropdown-btn" id="dropdownButton" name="unit">
+            <option value="Jupiters">Jupiters</option>
+            <option value="Earths">Earths</option>
+        </select>
+    
+        <button type="submit">Classify</button>
+    </form>
+    
+    
+    
+
+</div>
+
+<div class="output_box">
+    <input type="text" class="textbox" readonly value="{{ prediction or ' ' }}">
+</div>
+
+</body>
+</html>
