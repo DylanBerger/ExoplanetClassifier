@@ -60,7 +60,7 @@ It performed extremely well with every depth and number of trees. As such I aime
 
 # Evaluation
 
-The model achieved 98.65% accuracy on it's test set (which was 30% of the total amount of data)
+The model achieved 98.65% accuracy on the test set (which was 30% of the total amount of data)
 
 ![image](https://github.com/DylanBerger/Exoplanet-Classifier/assets/82914031/9077a73c-b18d-4c03-baa5-cd071e387df6)
 
